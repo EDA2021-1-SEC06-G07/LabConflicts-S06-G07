@@ -74,4 +74,6 @@ def createTagList():
 
 def addBookTags():
     # TO-DO: Modificación de Est-1 y Est-2 en el Lab 2
+    btfile = ct.data_dir+ filename
+    return model.addBooksTags(btfile)
     pass
